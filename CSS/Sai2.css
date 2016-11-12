@@ -1,0 +1,72 @@
+html{
+	background: url(../Images/greenmountain.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	background-image: no-repeat;
+	font-family: calibri;
+}
+H1{
+	color: #2f2f2f;
+	/*text-shadow: 5px 5px 4px #ffffff;*/
+	background: -moz-linear-gradient(#ffffff 0%, #4f924c 100%);
+	background: -webkit-linear-gradient(#ffffff 0%, #4f924c 100%);
+	background: -o-linear-gradient(#ffffff 0%, #4f924c 100%);
+	background: linear-gradient(to right, #ffffff 0%, #4f924c 100%);
+	border-radius: 20px;
+	padding: 10px;
+}
+/*alignment for menu*/
+nav{
+	margin-left: 610px;
+ }
+nav ul{
+	list-style: none;
+}
+nav li{
+	display: inline-block;
+}
+/*alignment for sub menu*/
+nav li ul {
+	display: none;
+	position: absolute;
+}
+nav li ul li{
+	display: block;
+	background-color:  rgba(76, 146, 76, 0.85);
+	padding: 5px;
+}
+nav li:hover ul{
+	display:block;
+}
+nav a:hover{
+	background-color: #cadec9;  /*pale green shade*/
+	color: #4c924c; /*green colour*/
+}
+/*styling for individual menu items*/
+nav a {
+	width: 10%;
+    padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 150%;
+	color: #000000;
+	transition: 2s, background-color, color;
+}
+/*styling for selected menu item*/
+.active {
+	background-color: #4c924c;
+	color: rgb(255, 255, 240);     
+}
+
+section{
+	width: 50%;
+	padding: 15px;
+	font-size: 140%;
+	margin: 50px;
+	color: rgba(76, 146, 76, 0.85);
+	background-color: #cadec9;
+	border-radius: 15px;
+	box-shadow: 10px 10px #4c924c, 20px 20px #cadec9 ;
+	float: left;
+ }
